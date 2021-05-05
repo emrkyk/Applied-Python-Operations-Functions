@@ -33,7 +33,6 @@ alternating(string=input("Please enter the string here!"))
 
 
 # ==============================================
-# ==============================================
 
 # Let's try generating a similar function with enumerate that does the same thing.
 
@@ -72,8 +71,6 @@ import numpy as np
 
 numbers = np.random.randint(30, size=30)
 numbers
-
-
 # array([23,  1,  8,  2,  3,  8,  7, 21, 21,  0, 25, 21, 19,  4, 11, 22, 27, 2, 14,  4, 29, 16, 23,  4,  3, 26,  6, 27,  9, 18])
 
 
@@ -101,7 +98,6 @@ even_odd_num()
 # [[23, 0], [3, 4], [7, 6], [21, 8], [25, 10], [19, 12], [11, 14], [27, 16], [29, 20], [23, 22], [3, 24], [9, 28]],            # new_list[2]
 # [[2, 3], [8, 5], [0, 9], [4, 13], [22, 15], [2, 17], [4, 19], [16, 21], [4, 23], [26, 25], [18, 29]]]                        # new_list[3]
 
-
 # ==============================================
 # ==============================================
 
@@ -111,12 +107,6 @@ and placing to the sub-lists according to their alphabetic sequence ##
 """
 
 students = ["John", "Mark", "Alison", "Jessica", "Alice", "Vanessa", "Mariam", "Michael", "Jennifer", "Victor"]
-
-
-# Alison, Alice
-# John Jennifer Jessica
-# Mark Mariam Michael
-# Vanessa Victor
 
 
 def divide(students):
@@ -194,7 +184,7 @@ laminar_func(bunch)
 # Last version of the list, floats rounded: [11, 22, 33, 44, 55, 100, 89, 78, 67]
 
 
-""" ## EXAMPLE: # define a function named standart_scaler that standardizes the Age variables in titanic dataset##
+""" ## EXAMPLE: # define a function named standart_scaler that standardizes the Age variable in titanic dataset##
 """
 
 import pandas as pd
