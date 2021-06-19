@@ -224,3 +224,5 @@ df[["Age"]].apply(standart_scaler).head()
 
 # with lambda , without using defined function
 df.loc[:, df.columns.str.contains("Age")].apply(lambda x: (x - x.mean()) / x.std())
+
+
